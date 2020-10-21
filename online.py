@@ -14,7 +14,7 @@ def create_space(player_name): return ' '*(MAX_LEN-len(player_name))
 MAX_LEN=21
 
 #input
-world = "Elysia"
+world = "Honera"
 if(len(sys.argv)>1):
 	world = sys.argv[1]
 
