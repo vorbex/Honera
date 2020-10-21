@@ -18,7 +18,7 @@ world = "Honera"
 if(len(sys.argv)>1):
 	world = sys.argv[1]
 
-printYellow(f'Retrocores Online - {world}')
+printYellow(f'Mastercores Online - {world}')
 
 while(True):
 	soup = BeautifulSoup(requests.get(f'https://mastercores.com/?subtopic=community&view=online&world={world}&sort=level').text,'lxml')
